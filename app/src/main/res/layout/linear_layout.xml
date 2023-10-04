@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="3"
-            android:text="Button" />
+            android:text="Masuk" />
 
         <Button
             android:id="@+id/button14"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Daftar" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,25 +52,24 @@
             android:id="@+id/button18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
-            android:layout_margin="10dp"
             android:layout_gravity="top|center"
-            />
+            android:layout_margin="10dp"
+            android:text="Match Parent" />
 
         <Button
             android:id="@+id/button19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
             android:layout_gravity="center|right"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:text="Right" />
 
         <Button
             android:id="@+id/button20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
-            android:layout_gravity="center|left"/>
+            android:layout_gravity="center|left"
+            android:text="Left" />
     </LinearLayout>
 
     <LinearLayout
